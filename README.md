@@ -17,6 +17,16 @@ List all local and remote branches:
 git branch -a
 ```
 
+Delete local branch:
+```
+git branch -d <branch_name>
+```
+
+Delete remote branch:
+```
+git push origin --delete <branch_name>
+```
+
 ## Diffs
 Show diff between the current branch and another branch:
 ```
