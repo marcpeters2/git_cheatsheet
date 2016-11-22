@@ -2,6 +2,9 @@
 A list of commonly used git commands
 
 ## Branches
+
+### Listing
+
 List local branches:
 ```
 git branch
@@ -16,6 +19,8 @@ List all local and remote branches:
 ```
 git branch -a
 ```
+
+### Deleting
 
 Delete local branch:
 ```
