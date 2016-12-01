@@ -59,3 +59,9 @@ Change the commit message (amend) the most recent commit on the current branch:
 ```
 git commit --amend
 ```
+
+## Undoing things
+Revert changes to a file by pulling that file from another branch:
+```
+git checkout branchname -- path/to/file.js
+```
