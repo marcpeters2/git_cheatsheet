@@ -20,6 +20,13 @@ List all local and remote branches:
 git branch -a
 ```
 
+### Getting stuff
+
+Retrieve a specific file (or files) from another branch:
+```
+git checkout <branch_name> -- <file_paths>
+```
+
 ### Deleting
 
 Delete local branch:
