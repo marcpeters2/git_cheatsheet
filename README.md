@@ -54,6 +54,15 @@ OR
 git diff HEAD:other/path/to/file.txt remotename/branchname:path/to/file.txt
 ```
 
+Show a summary of files changed between two branches
+```
+git diff --name-status branch1..branch2
+```
+... or to compare against the current branch:
+```
+git diff --name-status ..otherBranch
+```
+
 ## Remotes
 Add a remote:
 ```
