@@ -76,6 +76,16 @@ Change the commit message (amend) the most recent commit on the current branch:
 git commit --amend
 ```
 
+## Pushing changes
+Simultaneously push and create an upstream branch to track your current branch:
+```
+git push -u origin branchname
+```
+This has the same effect as:
+```
+git push --set-upstream origin branchname
+```
+
 ## Undoing things
 Revert changes to a file by pulling that file from another branch:
 ```
