@@ -76,6 +76,12 @@ Change the commit message (amend) the most recent commit on the current branch:
 git commit --amend
 ```
 
+## Merges
+Perform a merge using a different merge strategy (ie. "patience"):
+```
+git merge -s recursive -Xpatience <branch_name>
+```
+
 ## Pushing changes
 Simultaneously push and create an upstream branch to track your current branch:
 ```
