@@ -82,6 +82,15 @@ Perform a merge using a different merge strategy (ie. "patience"):
 git merge -s recursive -Xpatience <branch_name>
 ```
 
+Choose which file version to keep during a merge:
+```
+git checkout --theirs /path/to/file
+```
+OR
+```
+git checkout --ours /path/to/file
+```
+
 ## Pushing changes
 Simultaneously push and create an upstream branch to track your current branch:
 ```
